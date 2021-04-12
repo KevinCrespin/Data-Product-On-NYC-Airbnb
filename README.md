@@ -37,8 +37,8 @@ Our model will consist of 34,218 entries for training and 14,666 for testing the
 
 ## Contributors
 
-[Michael Oceguera](https://github.com/syntaxmike)
-[sean ybarra](https://github.com/seanybarra)
-[Kevin Crespin](https://github.com/KevinCrespin)
+* [Michael Oceguera](https://github.com/syntaxmike)
+* [sean ybarra](https://github.com/seanybarra)
+* [Kevin Crespin](https://github.com/KevinCrespin)
 
 
