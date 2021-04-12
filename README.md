@@ -1,21 +1,44 @@
-# Data-Product-On-NYC-Airbnb
-Data Analysis, Visualization, and Prediction On The New York City Airbnb Open Data
+# NYC-Airbnb-Data-Product
+Data analysis, visualization, and prediction on NYC Airbnb data
 
 ## Description
 
-### Context
-Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present more unique, personalized way of experiencing the world. This dataset describes the listing activity and metrics in NYC, NY for 2019.
+This project analyzes Airbnb data gathered from the New York City area in 2019, the listingg in the data range from private residences to rooms, neighbourhoods, neighbourhood groups, prices, and etc. The goal of this project is to create a model that can predict future AirBnb prices as well as which neighbourhoods of the city are most profitable.
 
-### Content
-[This data](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data) file includes all needed information to find out more about hosts, geographical availability, necessary metrics to make predictions and draw conclusions.
+## Data Source
 
-### Acknowledgements
 This public dataset is part of Airbnb, and the original source can be found on this [website](http://insideairbnb.com/).
+It contains a mix of qualitative and quantitative data, with 48,895 entries and 16 columns.
+Our model will consist of 34,218 entries for training and 14,666 for testing the target label PRICE.
 
-### Our Task
-Predict NYC Airbnb Rental Prices
+## Results
 
-### Details 
-As of August 2019, this data set contains almost 50 thousand airbnb listings in NYC. The purpose of this task is to predict the price of NYC Airbnb rentals based on the data provided and any external dataset(s) with relevant information.
+| Model  | RSME Average | 10-Fold RSME Average |
+| ------------- | ------------- |------------- |
+| Linear Regression  | 0.495  | 0.498  |
+| Random Forest Regressor  | 0.493  | 0.509  |
+| XgBoost  | 0.473  | NaN  |
+| Lasso Regression  | 0.693  |  0.698  |
 
-![NYC](New_York_City_.png)
+| Model  | Accuracy |
+| ------------- | ------------- |
+| Random Forest Classifier  | 83.4%  |
+| Logistic Regression  | 84.5% **(Overall Best)**  |
+| Decision Tree  | 80.9%  |
+| KNN  | 84.1% **(when k = 15)**  |
+
+| NYC Borough  | Average Listing price (USD) |
+| ------------- | ------------- |
+| Manhattan  | $291.38  |
+| Staten Island  | $277.62  |
+| Brooklyn  | $186.87 |
+| Queens  | $167.10  |
+| Bronx  | $106.70  |
+
+## Contributors
+
+[Michael Oceguera](https://github.com/syntaxmike)
+[sean ybarra](https://github.com/seanybarra)
+[Kevin Crespin](https://github.com/KevinCrespin)
+
+
