@@ -3,13 +3,12 @@ Data analysis, visualization, and prediction on NYC Airbnb data
 
 ## Description
 
-This project analyzes Airbnb data gathered from the New York City area in 2019, the listingg in the data range from private residences to rooms, neighbourhoods, neighbourhood groups, prices, and etc. The goal of this project is to create a model that can predict future AirBnb prices as well as which neighbourhoods of the city are most profitable.
+In this project we analyze Airbnb data gathered from the New York City area in 2019 and create various models to predict future AirBnb prices.
 
 ## Data Source
 
-This public dataset is part of Airbnb, and the original source can be found on this [website](http://insideairbnb.com/).
-It contains a mix of qualitative and quantitative data, with 48,895 entries and 16 columns.
-Our model will consist of 34,218 entries for training and 14,666 for testing the target label PRICE.
+This [datset](http://insideairbnb.com/) contains 48,895 entries and 16 columns of qualitative and quantitative data.
+Our models consist of 34,218 entries for training and 14,666 for testing.
 
 ## Results
 
@@ -34,6 +33,15 @@ Our model will consist of 34,218 entries for training and 14,666 for testing the
 | Brooklyn  | $186.87 |
 | Queens  | $167.10  |
 | Bronx  | $106.70  |
+
+## Technologies Used
+
+* Python 
+* Sklearn
+* Numpy
+* Matplotlib
+* Pandas
+* Jupyter Notebook
 
 ## Contributors
 
